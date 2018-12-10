@@ -1,0 +1,7 @@
+/Users/Guangyu/Desktop/shared-upstream/dev/a5-artrender/build/CMakeFiles/install/local.dir
+/Users/Guangyu/Desktop/shared-upstream/dev/a5-artrender/build/CMakeFiles/install/strip.dir
+/Users/Guangyu/Desktop/shared-upstream/dev/a5-artrender/build/CMakeFiles/install.dir
+/Users/Guangyu/Desktop/shared-upstream/dev/a5-artrender/build/CMakeFiles/a5-artrender.dir
+/Users/Guangyu/Desktop/shared-upstream/dev/a5-artrender/build/CMakeFiles/list_install_components.dir
+/Users/Guangyu/Desktop/shared-upstream/dev/a5-artrender/build/CMakeFiles/rebuild_cache.dir
+/Users/Guangyu/Desktop/shared-upstream/dev/a5-artrender/build/CMakeFiles/edit_cache.dir

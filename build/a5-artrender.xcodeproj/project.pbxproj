@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8093462CE8B44256A235AF0C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FD1D7CF54EEE41AB94681761 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				70DC3431971144409EB3D358 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9F2CBAEC00D948BAAEBE861A /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D68F8D4D3D9C4028AFF10399 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				C21AFBC01D874D23951BCCEF /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				04A25DD397B544C58A9DD375 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		B55A8BCCC61845079C07FB9A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C8BB9D167450472DB583D275 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				17FF7EF57A12431A9C2D2D69 /* CMake Rules */,
+			);
+			dependencies = (
+				624A1C1729884BA2A123CBFE /* PBXTargetDependency */,
+				B601C2A901634D3D98D42935 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02E5F59352F943258D0B58F9 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/outline.vert */ = {isa = PBXBuildFile; fileRef = 0D2A3953ECEF48BFADCF4052 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/outline.vert */; };
+		1C1624F1E2BA40A1AA08FDC0 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/artrender_app.cc */ = {isa = PBXBuildFile; fileRef = 2442F2B16C0D4279B5AF979E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/artrender_app.cc */; };
+		26D37D3DDEC74B2680B49A45 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/gouraud.vert */ = {isa = PBXBuildFile; fileRef = 11E6E2EF312C44F4B24737C0 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/gouraud.vert */; };
+		2BB979ADD47A49EF9951DEEB /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/phong.vert */ = {isa = PBXBuildFile; fileRef = 5EBE2E6BC4D447A4BFCB49E8 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/phong.vert */; };
+		5BB2E5304B5549EF89349C5B /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/phong.frag */ = {isa = PBXBuildFile; fileRef = F7C5DD53F879466985579AF1 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/phong.frag */; };
+		6FEA98CF1C72498F889C2BB9 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/config.h */ = {isa = PBXBuildFile; fileRef = BB9664AC22A14B3BA730C67E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/config.h */; };
+		785E1C12796440B2932952F8 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/main.cc */ = {isa = PBXBuildFile; fileRef = C8463450E44C417CA704F89E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/main.cc */; };
+		788799E36A434FEAA675ED0C /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/outline.frag */ = {isa = PBXBuildFile; fileRef = CF951707E2484F4A9817425C /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/outline.frag */; };
+		7E40827DAC9048BC9285D63E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/README.md */ = {isa = PBXBuildFile; fileRef = 225F3B70C4754725BD2F8EE3 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/README.md */; };
+		9255F2666B314773B7914119 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/edge_mesh.h */ = {isa = PBXBuildFile; fileRef = 53D9927CDE954AA7B99E1E9B /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/edge_mesh.h */; };
+		9B06CCB3D8684992B1D70937 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/artsy.vert */ = {isa = PBXBuildFile; fileRef = 3D35C504278E4058A2701A6A /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/artsy.vert */; };
+		A8B4054F26A643B0841A6FEA /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/artrender_app.h */ = {isa = PBXBuildFile; fileRef = 46840079816849FCA5467C99 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/artrender_app.h */; };
+		B09049D2F94647A1B3F39351 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/config.h.in */ = {isa = PBXBuildFile; fileRef = 73ED467FBAAC4C10960D84EE /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/config.h.in */; };
+		B3B7565E230946A99142BB29 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/artsy.frag */ = {isa = PBXBuildFile; fileRef = 4BBABA26EED8401B9E30A74D /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/artsy.frag */; };
+		BA2E8CDC906545568D346B5D /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/gouraud.frag */ = {isa = PBXBuildFile; fileRef = AB86F3C3F27F4459947ABADD /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/gouraud.frag */; };
+		F49ACAD5452F476CB0AC62B1 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/edge_mesh.cc */ = {isa = PBXBuildFile; fileRef = 5C9083A7829D4386A8056210 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/edge_mesh.cc */; };
+		FF414701D93647E6A90180A7 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BABD730EFE744F3E8610A278 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3144A81EFE124090BC5BB02F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		6ED6C39143374FE4930886C1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		80941BF0EB2F43258F6993FC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9363FB9CFEC3474F964ADACC /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		401C99D252E74EA9A03E7241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85CCD57DB04459788E174D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8093462CE8B44256A235AF0C;
+			remoteInfo = ZERO_CHECK;
+		};
+		516187B9D1AE41EA9FB024B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85CCD57DB04459788E174D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55A8BCCC61845079C07FB9A;
+			remoteInfo = ALL_BUILD;
+		};
+		9DA9093ECEC14F7A8F09CDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85CCD57DB04459788E174D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C180D08120584EEA83F5810C;
+			remoteInfo = "a5-artrender";
+		};
+		EA4F38273A4E456F95277211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E85CCD57DB04459788E174D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8093462CE8B44256A235AF0C;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2A3953ECEF48BFADCF4052 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/outline.vert */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = outline.vert; path = shaders/outline.vert; sourceTree = SOURCE_ROOT; };
+		11E6E2EF312C44F4B24737C0 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/gouraud.vert */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = gouraud.vert; path = shaders/gouraud.vert; sourceTree = SOURCE_ROOT; };
+		225F3B70C4754725BD2F8EE3 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/README.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = README.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		2442F2B16C0D4279B5AF979E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/artrender_app.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = artrender_app.cc; path = artrender_app.cc; sourceTree = SOURCE_ROOT; };
+		3D35C504278E4058A2701A6A /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/artsy.vert */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = artsy.vert; path = shaders/artsy.vert; sourceTree = SOURCE_ROOT; };
+		46840079816849FCA5467C99 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/artrender_app.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = artrender_app.h; path = artrender_app.h; sourceTree = SOURCE_ROOT; };
+		4BBABA26EED8401B9E30A74D /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/artsy.frag */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = artsy.frag; path = shaders/artsy.frag; sourceTree = SOURCE_ROOT; };
+		53D9927CDE954AA7B99E1E9B /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/edge_mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = edge_mesh.h; path = edge_mesh.h; sourceTree = SOURCE_ROOT; };
+		5C9083A7829D4386A8056210 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/edge_mesh.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edge_mesh.cc; path = edge_mesh.cc; sourceTree = SOURCE_ROOT; };
+		5EBE2E6BC4D447A4BFCB49E8 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/phong.vert */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = phong.vert; path = shaders/phong.vert; sourceTree = SOURCE_ROOT; };
+		73ED467FBAAC4C10960D84EE /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/config.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = config.h.in; path = config.h.in; sourceTree = SOURCE_ROOT; };
+		78A7051FFB984AB1B0A2BCBF /* a5-artrender */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "a5-artrender"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB86F3C3F27F4459947ABADD /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/gouraud.frag */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = gouraud.frag; path = shaders/gouraud.frag; sourceTree = SOURCE_ROOT; };
+		BABD730EFE744F3E8610A278 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BB9664AC22A14B3BA730C67E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = config.h; sourceTree = SOURCE_ROOT; };
+		C8463450E44C417CA704F89E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cc; path = main.cc; sourceTree = SOURCE_ROOT; };
+		CF951707E2484F4A9817425C /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/outline.frag */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = outline.frag; path = shaders/outline.frag; sourceTree = SOURCE_ROOT; };
+		F00B3DDEAA204526AB645551 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F7C5DD53F879466985579AF1 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/phong.frag */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = phong.frag; path = shaders/phong.frag; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		66D71D3E544A4815B08F4EA4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				46840079816849FCA5467C99 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/artrender_app.h */,
+				BB9664AC22A14B3BA730C67E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/config.h */,
+				73ED467FBAAC4C10960D84EE /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/config.h.in */,
+				53D9927CDE954AA7B99E1E9B /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/edge_mesh.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		676746D8A9A44B99B6037F58 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				4BBABA26EED8401B9E30A74D /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/artsy.frag */,
+				3D35C504278E4058A2701A6A /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/artsy.vert */,
+				AB86F3C3F27F4459947ABADD /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/gouraud.frag */,
+				11E6E2EF312C44F4B24737C0 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/gouraud.vert */,
+				CF951707E2484F4A9817425C /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/outline.frag */,
+				0D2A3953ECEF48BFADCF4052 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/outline.vert */,
+				F7C5DD53F879466985579AF1 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/phong.frag */,
+				5EBE2E6BC4D447A4BFCB49E8 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/shaders/phong.vert */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		9B399F4805B7477ABF368F4D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A20F5E05F0AB4E828B8DA20D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A7051FFB984AB1B0A2BCBF /* a5-artrender */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31807B5A70E4857A2B62836 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2442F2B16C0D4279B5AF979E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/artrender_app.cc */,
+				5C9083A7829D4386A8056210 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/edge_mesh.cc */,
+				C8463450E44C417CA704F89E /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A4E10908026D42E79C63B75D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9B399F4805B7477ABF368F4D /* CMake Rules */,
+				F00B3DDEAA204526AB645551 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		ADA11A1F73414DE19BAF8540 = {
+			isa = PBXGroup;
+			children = (
+				F8F248F60C274322AF7C6984 /* a5-artrender */,
+				A4E10908026D42E79C63B75D /* ALL_BUILD */,
+				A20F5E05F0AB4E828B8DA20D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8F248F60C274322AF7C6984 /* a5-artrender */ = {
+			isa = PBXGroup;
+			children = (
+				A31807B5A70E4857A2B62836 /* Source Files */,
+				66D71D3E544A4815B08F4EA4 /* Header Files */,
+				676746D8A9A44B99B6037F58 /* Shaders */,
+				BABD730EFE744F3E8610A278 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/CMakeLists.txt */,
+				225F3B70C4754725BD2F8EE3 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/README.md */,
+			);
+			name = "a5-artrender";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C180D08120584EEA83F5810C /* a5-artrender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B69B29CDAD4DFBAED743FE /* Build configuration list for PBXNativeTarget "a5-artrender" */;
+			buildPhases = (
+				1D4D0E30EAF44D059EE91677 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F68C9F4D5C454734876940C2 /* PBXTargetDependency */,
+			);
+			name = "a5-artrender";
+			productName = "a5-artrender";
+			productReference = 78A7051FFB984AB1B0A2BCBF /* a5-artrender */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E85CCD57DB04459788E174D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 69074C20EB82459288FC1986 /* Build configuration list for PBXProject "a5-artrender" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6ED6C39143374FE4930886C1 /* Debug */,
+				80941BF0EB2F43258F6993FC /* Release */,
+				9363FB9CFEC3474F964ADACC /* MinSizeRel */,
+				3144A81EFE124090BC5BB02F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = ADA11A1F73414DE19BAF8540;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				B55A8BCCC61845079C07FB9A /* ALL_BUILD */,
+				8093462CE8B44256A235AF0C /* ZERO_CHECK */,
+				C180D08120584EEA83F5810C /* a5-artrender */,
+				9F2CBAEC00D948BAAEBE861A /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17FF7EF57A12431A9C2D2D69 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/thomas/Desktop/CSCI\\ 4611/repo-shenx683/dev/a5-artrender/build -f /Users/thomas/Desktop/CSCI\\ 4611/repo-shenx683/dev/a5-artrender/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		665848D8CB35449892A4148E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		70DC3431971144409EB3D358 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/thomas/Desktop/CSCI\\ 4611/repo-shenx683/dev/a5-artrender/build -f /Users/thomas/Desktop/CSCI\\ 4611/repo-shenx683/dev/a5-artrender/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7A2C4C8711AE49649CC50C26 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C21AFBC01D874D23951BCCEF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/thomas/Desktop/CSCI\\ 4611/repo-shenx683/dev/a5-artrender/build -f /Users/thomas/Desktop/CSCI\\ 4611/repo-shenx683/dev/a5-artrender/build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E00C09B1A0694612BE91F357 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D4D0E30EAF44D059EE91677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1624F1E2BA40A1AA08FDC0 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/artrender_app.cc */,
+				F49ACAD5452F476CB0AC62B1 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/edge_mesh.cc */,
+				785E1C12796440B2932952F8 /* /Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A25DD397B544C58A9DD375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55A8BCCC61845079C07FB9A /* ALL_BUILD */;
+			targetProxy = 516187B9D1AE41EA9FB024B4 /* PBXContainerItemProxy */;
+		};
+		624A1C1729884BA2A123CBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8093462CE8B44256A235AF0C /* ZERO_CHECK */;
+			targetProxy = EA4F38273A4E456F95277211 /* PBXContainerItemProxy */;
+		};
+		B601C2A901634D3D98D42935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C180D08120584EEA83F5810C /* a5-artrender */;
+			targetProxy = 9DA9093ECEC14F7A8F09CDB5 /* PBXContainerItemProxy */;
+		};
+		F68C9F4D5C454734876940C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8093462CE8B44256A235AF0C /* ZERO_CHECK */;
+			targetProxy = 401C99D252E74EA9A03E7241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000F79296CCF4B47A3B84B1E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		074643EDA1E0435AB990F4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NanoGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib\"";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib/MinGfx-1.0/libMinGfxd.a\" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd \"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib/libnanogui.dylib\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a5-artrender";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include/MinGfx-1.0\"","\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include\"","\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include/nanovg\"");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0C21FB56C2304FB096A8944A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		21771AE3A2B84E21B63293DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3C25A553B62A4EA596EF5833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		40BB107132C8491195AA029E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4657F948E3584AC8B0C22BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		584070798985409FA977844C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		67E299C6D46A44389E846D66 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NanoGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib\"";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib/MinGfx-1.0/libMinGfxd.a\" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd \"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib/libnanogui.dylib\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a5-artrender";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include/MinGfx-1.0\"","\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include\"","\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include/nanovg\"");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		685DD825EA654A2B8AA092FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build/build";
+			};
+			name = Debug;
+		};
+		6FBF843206844F2F8E253A1B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		709E3ECF34E8447F80A8D88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build/build";
+			};
+			name = Release;
+		};
+		85DCB08A672D480D8819A16F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NanoGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib\"";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib/MinGfx-1.0/libMinGfxd.a\" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd \"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib/libnanogui.dylib\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a5-artrender";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include/MinGfx-1.0\"","\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include\"","\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include/nanovg\"");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9B195BD46C97465E9C8FFCC4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A353B901C8BE4352A727D67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A7D275D06CD143BABD228C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NanoGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib\"";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib/MinGfx-1.0/libMinGfxd.a\" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd \"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/lib/libnanogui.dylib\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a5-artrender";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include/MinGfx-1.0\"","\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include\"","\"/Users/thomas/Desktop/CSCI 4611/repo-shenx683/include/nanovg\"");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B60781A9BEC449C4917698F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CF1BCABB5BCE452F996DAF17 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E0C49FCF4C494F7F87E49D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EF5F5484DB924D1BB054B6D9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/thomas/Desktop/CSCI 4611/repo-shenx683/dev/a5-artrender/build/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69074C20EB82459288FC1986 /* Build configuration list for PBXProject "a5-artrender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685DD825EA654A2B8AA092FA /* Debug */,
+				709E3ECF34E8447F80A8D88B /* Release */,
+				EF5F5484DB924D1BB054B6D9 /* MinSizeRel */,
+				6FBF843206844F2F8E253A1B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A4B69B29CDAD4DFBAED743FE /* Build configuration list for PBXNativeTarget "a5-artrender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D275D06CD143BABD228C37 /* Debug */,
+				074643EDA1E0435AB990F4D6 /* Release */,
+				85DCB08A672D480D8819A16F /* MinSizeRel */,
+				67E299C6D46A44389E846D66 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8BB9D167450472DB583D275 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C25A553B62A4EA596EF5833 /* Debug */,
+				21771AE3A2B84E21B63293DB /* Release */,
+				B60781A9BEC449C4917698F9 /* MinSizeRel */,
+				40BB107132C8491195AA029E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D68F8D4D3D9C4028AFF10399 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A353B901C8BE4352A727D67E /* Debug */,
+				4657F948E3584AC8B0C22BFB /* Release */,
+				CF1BCABB5BCE452F996DAF17 /* MinSizeRel */,
+				000F79296CCF4B47A3B84B1E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FD1D7CF54EEE41AB94681761 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C49FCF4C494F7F87E49D7B /* Debug */,
+				0C21FB56C2304FB096A8944A /* Release */,
+				584070798985409FA977844C /* MinSizeRel */,
+				9B195BD46C97465E9C8FFCC4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E85CCD57DB04459788E174D1 /* Project object */;
+}
